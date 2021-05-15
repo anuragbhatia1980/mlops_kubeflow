@@ -6,6 +6,7 @@ The focus will be more on using the machine learning pipelines, rather than the 
 Business problem: identification (and hence preventing) fraudulent credit card transactions.
 
 Type of ML problem: Classification.
+
 No. of classes : 2
 
 Dataset source: https://www.kaggle.com/c/ieee-fraud-detection/data
