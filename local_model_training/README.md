@@ -6,6 +6,8 @@ How did we handle class imbalance?
 - choice of performance metric:
 a) Accuracy is not appropriate. b) Recall matters more than Precision. Assumption: It is more important to minimize False-Negatives (i.e. allowing fraudulent transactions) than False-Positives (i.e. declining genuine transactions). c) ROC-AUC can also be considered.
 - minority-oversampling
-- majority-undersampling  
+- majority-undersampling  ('Edited-Nearest-Neighbours & Random-Under-Sampling)
+  
+  Reference: https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/
 - hyper-parameter value during model training
   (e.g. 'scale_pos_weight' in case of XGBoost)
