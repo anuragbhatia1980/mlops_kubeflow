@@ -1,5 +1,6 @@
 # mlops_kubeflow
-Step 1: Run the credit_card_fraud.ipynb notebook 
+Step 1: Run the credit_card_fraud.ipynb notebook
+
 Step 2: Run the kfp notebook.
 
 In Step 1:
